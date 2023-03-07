@@ -48,7 +48,7 @@ impl Config {
     }
 
     pub fn write(&self) -> Result<(), Box<dyn std::error::Error>> {
-        let mut file = File::create("gameutil.toml")?;
+        let mut file = File::create("waveutil.toml")?;
         let serialized = toml::to_string(&self)?;
         file.write_all(serialized.as_bytes())?;
         Ok(())
