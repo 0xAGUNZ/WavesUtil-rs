@@ -14,6 +14,7 @@ It was written specifically to minimize READ/WRITE on the system
 Usually people uses sketchy tricks in order to achieve such which would be a security and dirty way to proceed that often cause false positive.
 1. Open your Game
 2. Open Waveutil.exe **with [NSudo(included in the release since the website went down)](https://github.com/0xAGUNZ/WavesUtil-rs/releases/download/1.0/NSudo.exe)**
+  - **IMPORTANT** Nsudo is unsupported now, waveutils will uses it successor named nanarun ( minsudo ).
 3. Configure settings and click start
 4. Play!
 5. Once finished, alt-tab to WameUtil and click Restore
